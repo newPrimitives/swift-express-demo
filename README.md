@@ -1,2 +1,2 @@
-# swift-express-demo
-This repository contains code for Swift Express tutorial published on my blog. 
+<h1> Swift on servers 101 - Swift Express </h1>
+This repository contains code for Swift Express tutorial published on <a href="http://nermin.tech/swift-on-servers-101-swift-express/" target="_blank"> nermin.tech </a> In this tutorial we’ll see how useful Swift is for developing web applications by trying to create a fully functional website with API calls, HTML structure, CSS style and JavaScript plugins. For this experiment I’ve chosen Swift Express, framework developed by <a href="http://www.crossroadlabs.xyz/" target="_blank"> crossroadlabs </a> which already has a (growing) community and few beta releases on github. 
