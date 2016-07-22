@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		555CCE841D25B20800E66AB0 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555CCE831D25B20800E66AB0 /* HomeController.swift */; };
+		9609B4EA1C5FC19B00141FAB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609B4E91C5FC19B00141FAB /* main.swift */; };
+		968A3BB21C639C8900E4AFCC /* Express.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BB11C639C8900E4AFCC /* Express.framework */; };
+		968A3BB31C639C8900E4AFCC /* Express.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BB11C639C8900E4AFCC /* Express.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		968A3BBF1C63A53F00E4AFCC /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BBE1C63A53F00E4AFCC /* BrightFutures.framework */; };
+		968A3BC01C63A53F00E4AFCC /* BrightFutures.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BBE1C63A53F00E4AFCC /* BrightFutures.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		968A3BC21C63A55D00E4AFCC /* Mustache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BC11C63A55D00E4AFCC /* Mustache.framework */; };
+		968A3BC31C63A55D00E4AFCC /* Mustache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BC11C63A55D00E4AFCC /* Mustache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		968A3BC51C63A56D00E4AFCC /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BC41C63A56D00E4AFCC /* Result.framework */; };
+		968A3BC61C63A56D00E4AFCC /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BC41C63A56D00E4AFCC /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		96AB7D151C80DFB300F638F9 /* TidyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB7D141C80DFB300F638F9 /* TidyJSON.framework */; };
+		96AB7D171C80DFBE00F638F9 /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB7D161C80DFBE00F638F9 /* Stencil.framework */; };
+		96AB7D1B1C80DFEF00F638F9 /* ExecutionContext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB7D1A1C80DFEF00F638F9 /* ExecutionContext.framework */; };
+		96AB7D1D1C80E00900F638F9 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB7D1C1C80E00900F638F9 /* PathKit.framework */; };
+		96AB7D1E1C80E05800F638F9 /* ExecutionContext.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB7D1A1C80DFEF00F638F9 /* ExecutionContext.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		96AB7D1F1C80E05800F638F9 /* TidyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB7D141C80DFB300F638F9 /* TidyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		96AB7D201C80E05800F638F9 /* Stencil.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB7D161C80DFBE00F638F9 /* Stencil.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		96AB7D211C80E05800F638F9 /* PathKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB7D1C1C80E00900F638F9 /* PathKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		96E0C04E1C6D435B00CA926F /* PathToRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E0C04C1C6D435B00CA926F /* PathToRegex.framework */; };
+		96E0C04F1C6D435B00CA926F /* PathToRegex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96E0C04C1C6D435B00CA926F /* PathToRegex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		96E0C0501C6D435B00CA926F /* Regex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E0C04D1C6D435B00CA926F /* Regex.framework */; };
+		96E0C0511C6D435B00CA926F /* Regex.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96E0C04D1C6D435B00CA926F /* Regex.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		968A3BB41C639C8900E4AFCC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				96AB7D1E1C80E05800F638F9 /* ExecutionContext.framework in Embed Frameworks */,
+				96AB7D1F1C80E05800F638F9 /* TidyJSON.framework in Embed Frameworks */,
+				96AB7D201C80E05800F638F9 /* Stencil.framework in Embed Frameworks */,
+				96AB7D211C80E05800F638F9 /* PathKit.framework in Embed Frameworks */,
+				96E0C0511C6D435B00CA926F /* Regex.framework in Embed Frameworks */,
+				968A3BB31C639C8900E4AFCC /* Express.framework in Embed Frameworks */,
+				968A3BC31C63A55D00E4AFCC /* Mustache.framework in Embed Frameworks */,
+				96E0C04F1C6D435B00CA926F /* PathToRegex.framework in Embed Frameworks */,
+				968A3BC01C63A53F00E4AFCC /* BrightFutures.framework in Embed Frameworks */,
+				968A3BC61C63A56D00E4AFCC /* Result.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		555CCE831D25B20800E66AB0 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		9609B4D91C5FC0DC00141FAB /* HelloWorldExpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldExpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9609B4E31C5FC0DC00141FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9609B4E91C5FC19B00141FAB /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9609B4EE1C5FC2EC00141FAB /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; path = public; sourceTree = "<group>"; };
+		9609B4F11C5FC51A00141FAB /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		963ED1CA1C81E596002351EE /* views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = views; sourceTree = "<group>"; };
+		968A3BB11C639C8900E4AFCC /* Express.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Express.framework; path = Carthage/Build/Mac/Express.framework; sourceTree = "<group>"; };
+		968A3BBE1C63A53F00E4AFCC /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/Mac/BrightFutures.framework; sourceTree = "<group>"; };
+		968A3BC11C63A55D00E4AFCC /* Mustache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mustache.framework; path = Carthage/Build/Mac/Mustache.framework; sourceTree = "<group>"; };
+		968A3BC41C63A56D00E4AFCC /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
+		96AB7D141C80DFB300F638F9 /* TidyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TidyJSON.framework; path = Carthage/Build/Mac/TidyJSON.framework; sourceTree = "<group>"; };
+		96AB7D161C80DFBE00F638F9 /* Stencil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stencil.framework; path = Carthage/Build/Mac/Stencil.framework; sourceTree = "<group>"; };
+		96AB7D1A1C80DFEF00F638F9 /* ExecutionContext.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExecutionContext.framework; path = Carthage/Build/Mac/ExecutionContext.framework; sourceTree = "<group>"; };
+		96AB7D1C1C80E00900F638F9 /* PathKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PathKit.framework; path = Carthage/Build/Mac/PathKit.framework; sourceTree = "<group>"; };
+		96E0C04C1C6D435B00CA926F /* PathToRegex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PathToRegex.framework; path = Carthage/Build/Mac/PathToRegex.framework; sourceTree = "<group>"; };
+		96E0C04D1C6D435B00CA926F /* Regex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Regex.framework; path = Carthage/Build/Mac/Regex.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9609B4D61C5FC0DC00141FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E0C0501C6D435B00CA926F /* Regex.framework in Frameworks */,
+				968A3BB21C639C8900E4AFCC /* Express.framework in Frameworks */,
+				968A3BC21C63A55D00E4AFCC /* Mustache.framework in Frameworks */,
+				96AB7D151C80DFB300F638F9 /* TidyJSON.framework in Frameworks */,
+				96E0C04E1C6D435B00CA926F /* PathToRegex.framework in Frameworks */,
+				968A3BBF1C63A53F00E4AFCC /* BrightFutures.framework in Frameworks */,
+				96AB7D1B1C80DFEF00F638F9 /* ExecutionContext.framework in Frameworks */,
+				968A3BC51C63A56D00E4AFCC /* Result.framework in Frameworks */,
+				96AB7D1D1C80E00900F638F9 /* PathKit.framework in Frameworks */,
+				96AB7D171C80DFBE00F638F9 /* Stencil.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		555CCE851D25B3FD00E66AB0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				555CCE831D25B20800E66AB0 /* HomeController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9609B4D01C5FC0DC00141FAB = {
+			isa = PBXGroup;
+			children = (
+				9609B4EB1C5FC2A000141FAB /* app */,
+				963ED1CA1C81E596002351EE /* views */,
+				9609B4EE1C5FC2EC00141FAB /* public */,
+				9609B4F01C5FC31800141FAB /* Frameworks */,
+				9609B4DA1C5FC0DC00141FAB /* Products */,
+				9609B4E31C5FC0DC00141FAB /* Info.plist */,
+				9609B4F11C5FC51A00141FAB /* Cartfile */,
+			);
+			sourceTree = "<group>";
+		};
+		9609B4DA1C5FC0DC00141FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9609B4D91C5FC0DC00141FAB /* HelloWorldExpress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9609B4EB1C5FC2A000141FAB /* app */ = {
+			isa = PBXGroup;
+			children = (
+				555CCE851D25B3FD00E66AB0 /* Controllers */,
+				9609B4E91C5FC19B00141FAB /* main.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		9609B4F01C5FC31800141FAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968A3BB11C639C8900E4AFCC /* Express.framework */,
+				96AB7D1A1C80DFEF00F638F9 /* ExecutionContext.framework */,
+				96E0C04D1C6D435B00CA926F /* Regex.framework */,
+				96AB7D141C80DFB300F638F9 /* TidyJSON.framework */,
+				96AB7D161C80DFBE00F638F9 /* Stencil.framework */,
+				968A3BBE1C63A53F00E4AFCC /* BrightFutures.framework */,
+				96AB7D1C1C80E00900F638F9 /* PathKit.framework */,
+				96E0C04C1C6D435B00CA926F /* PathToRegex.framework */,
+				968A3BC41C63A56D00E4AFCC /* Result.framework */,
+				968A3BC11C63A55D00E4AFCC /* Mustache.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9609B4D81C5FC0DC00141FAB /* HelloWorldExpress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9609B4E61C5FC0DC00141FAB /* Build configuration list for PBXNativeTarget "HelloWorldExpress" */;
+			buildPhases = (
+				9609B4D51C5FC0DC00141FAB /* Sources */,
+				9609B4D61C5FC0DC00141FAB /* Frameworks */,
+				9609B4D71C5FC0DC00141FAB /* Resources */,
+				968A3BB41C639C8900E4AFCC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorldExpress;
+			productName = HelloWorldExpress;
+			productReference = 9609B4D91C5FC0DC00141FAB /* HelloWorldExpress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9609B4D11C5FC0DC00141FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Crossroad Labs";
+				TargetAttributes = {
+					9609B4D81C5FC0DC00141FAB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 9609B4D41C5FC0DC00141FAB /* Build configuration list for PBXProject "HelloWorldExpress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9609B4D01C5FC0DC00141FAB;
+			productRefGroup = 9609B4DA1C5FC0DC00141FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9609B4D81C5FC0DC00141FAB /* HelloWorldExpress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9609B4D71C5FC0DC00141FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9609B4D51C5FC0DC00141FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555CCE841D25B20800E66AB0 /* HomeController.swift in Sources */,
+				9609B4EA1C5FC19B00141FAB /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9609B4E41C5FC0DC00141FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/opt/openssl/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9609B4E51C5FC0DC00141FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/opt/openssl/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9609B4E71C5FC0DC00141FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/public",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.swiftexpress.HelloWorldExpress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Carthage/Checkouts $(SRCROOT)/Packages";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SYMROOT = dist;
+			};
+			name = Debug;
+		};
+		9609B4E81C5FC0DC00141FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/public",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.swiftexpress.HelloWorldExpress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Carthage/Checkouts $(SRCROOT)/Packages";
+				SYMROOT = dist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9609B4D41C5FC0DC00141FAB /* Build configuration list for PBXProject "HelloWorldExpress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9609B4E41C5FC0DC00141FAB /* Debug */,
+				9609B4E51C5FC0DC00141FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9609B4E61C5FC0DC00141FAB /* Build configuration list for PBXNativeTarget "HelloWorldExpress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9609B4E71C5FC0DC00141FAB /* Debug */,
+				9609B4E81C5FC0DC00141FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9609B4D11C5FC0DC00141FAB /* Project object */;
+}

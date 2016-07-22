@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>{{hello}} {{swift}} {{express}}</title>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700italic,700' rel='stylesheet' type='text/css'>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href='/assets/css/main.css' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Hello world from SwiftExpress!</h1>
+            <p>This is a demo application showing how to build website using Swift. Backend is powered by SwiftExpress framework. Tutorial by nermin.tech </p>
+        </div>
+        {% for post in posts %}
+            <div class="row">
+                <div class="col-sm-offset-2 col-sm-8">
+                    <img src="{{post}}" class="img-responsive center-block">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-offset-2 col-sm-8">
+                    <hr>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+
+    </body>
+</html>
