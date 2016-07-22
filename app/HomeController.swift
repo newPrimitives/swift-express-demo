@@ -9,6 +9,7 @@
 import Foundation
 import Express
 import BrightFutures
+import Result
 
 class HomeController {
     
@@ -20,25 +21,22 @@ class HomeController {
         return Action<AnyContent>.render("index", context: ["hello": "caj", "swift": "Swift", "express": "Express!"])
     }
     
-    static func fetchData(completionHandler: (posts: [String]) -> ()) {
+    static func fetchData() -> Future<[String], NSError> {
         
         // Define URL and posts array
         let urlSession = NSURLSession.sharedSession()
         let url = NSURL(string: "http://infinigag.k3min.eu/trending")!
         
-        var posts = [String]()
-        
         // Make a request
-        let request = urlSession.dataTaskWithURL(url, completionHandler: { data, response, error -> Void in
-            
-            // Try-catch block
-            do {
-                let JSON = try NSJSONSerialization.JSONObjectWithData(data!, options:NSJSONReadingOptions(rawValue: 0))
+        return urlSession.dataWithURL(url).flatMap { data in
+            materialize {
+                let JSON = try NSJSONSerialization.JSONObjectWithData(data, options:NSJSONReadingOptions(rawValue: 0))
                 
-                guard let JSONDictionary :NSDictionary = JSON as? NSDictionary else {
-                    print("Not a Dictionary")
-                    return
+                guard let JSONDictionary: NSDictionary = JSON as? NSDictionary else {
+                    throw NSError(domain: "express.example", code: 1, userInfo: ["description": "Not a Dictionary"])
                 }
+                
+                var posts = [String]()
                 
                 // Map the JSON response to array
                 for (key, value) in JSONDictionary {
@@ -52,18 +50,10 @@ class HomeController {
                         }
                     }
                 }
-                // Call completion handler
-                completionHandler(posts: posts)
                 
-                return
-                
-                
-            } catch let JSONError as NSError {
-                print("\(JSONError)")
+                return posts
             }
-        })
-        
-        request.resume()
+        }
     }
     
     func futurify<Payload>(fun:((Payload)->Void)->Void) -> Future<Payload, AnyError> {
