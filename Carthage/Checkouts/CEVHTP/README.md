@@ -1,2 +1,0 @@
-# CEVHTP
-EVHTP Swift Module
