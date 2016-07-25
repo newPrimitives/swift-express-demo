@@ -1,3 +1,0 @@
-framework module Express {
-    header "Express-Swift.h"
-}

@@ -1,3 +1,0 @@
-framework module PathToRegex {
-    header "PathToRegex-Swift.h"
-}

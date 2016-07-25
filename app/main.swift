@@ -14,8 +14,7 @@ app.views.register(StencilViewEngine())
 app.get("/assets/:file+", action: StaticAction(path: "public", param:"file"))
 
 app.get("/") { (request:Request<AnyContent>) -> Future<Action<AnyContent>, AnyError> in
-    
-    return HomeController().futurify(HomeController.fetchData).map { posts in
+    return HomeController.fetchData().map { posts in
         Action.render("index", context: ["posts": posts])
     }
 }

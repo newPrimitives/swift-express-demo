@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		555CCE841D25B20800E66AB0 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555CCE831D25B20800E66AB0 /* HomeController.swift */; };
+		655759DC1D428D2500A13989 /* NSURLSession+Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655759DB1D428D2500A13989 /* NSURLSession+Future.swift */; };
 		9609B4EA1C5FC19B00141FAB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609B4E91C5FC19B00141FAB /* main.swift */; };
 		968A3BB21C639C8900E4AFCC /* Express.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BB11C639C8900E4AFCC /* Express.framework */; };
 		968A3BB31C639C8900E4AFCC /* Express.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 968A3BB11C639C8900E4AFCC /* Express.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -56,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		555CCE831D25B20800E66AB0 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		655759DB1D428D2500A13989 /* NSURLSession+Future.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLSession+Future.swift"; sourceTree = "<group>"; };
 		9609B4D91C5FC0DC00141FAB /* HelloWorldExpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldExpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9609B4E31C5FC0DC00141FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9609B4E91C5FC19B00141FAB /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				555CCE851D25B3FD00E66AB0 /* Controllers */,
+				655759DB1D428D2500A13989 /* NSURLSession+Future.swift */,
 				9609B4E91C5FC19B00141FAB /* main.swift */,
 			);
 			path = app;
@@ -221,6 +224,7 @@
 			files = (
 				555CCE841D25B20800E66AB0 /* HomeController.swift in Sources */,
 				9609B4EA1C5FC19B00141FAB /* main.swift in Sources */,
+				655759DC1D428D2500A13989 /* NSURLSession+Future.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
